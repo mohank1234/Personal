@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Cute Dashboard 💘</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header class="hero card" id="top">
+        <p class="tiny">Emergency romance recovery mode activated 🚨💗</p>
+        <h1>Girlfriend Happiness Dashboard</h1>
+        <p class="lead">
+          I messed up a little, but I am fully interested in <strong>you</strong>.
+          This dashboard is my tiny mission control to make you smile again.
+        </p>
+
+        <nav class="quick-links" aria-label="Quick links">
+          <a href="#apology">Go to Apology Zone</a>
+          <a href="#reasons">Go to Why Us</a>
+          <a href="#date">Go to Date Plan</a>
+        </nav>
+      </header>
+
+      <section class="dashboard card" aria-labelledby="dashTitle">
+        <h2 id="dashTitle">Live Love Metrics (visible clicks)</h2>
+        <div class="metrics">
+          <article>
+            <h3>Apology Clicks</h3>
+            <p id="apologyCount" class="count">0</p>
+          </article>
+          <article>
+            <h3>Date Button Clicks</h3>
+            <p id="dateCount" class="count">0</p>
+          </article>
+          <article>
+            <h3>Forgiveness Progress</h3>
+            <p id="progressText" class="count">Just started 🥹</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card" id="apology">
+        <h2>Apology Zone</h2>
+        <p>
+          I am sorry. I hear you. I care about you deeply. I want to do better
+          and prove it with actions.
+        </p>
+        <button id="forgiveBtn">Tap for upgraded apology</button>
+      </section>
+
+      <section class="card" id="reasons">
+        <h2>Why you should still be with me 😌</h2>
+        <ul>
+          <li>I will listen first, defend never.</li>
+          <li>I bring jokes, snacks, and soft forehead kisses.</li>
+          <li>I choose you daily, not only on easy days.</li>
+          <li>I am interested in us: fully, seriously, and sweetly.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="date">
+        <h2>Date Plan Generator</h2>
+        <p id="dateMessage">Press the button for your princess treatment plan.</p>
+        <button id="dateBtn">Generate cute date plan 💃</button>
+      </section>
+
+      <footer class="card footer">
+        <p id="message" class="message">Please be with me. I really like us. ❤️</p>
+        <a href="#top" class="back-top">Back to top ↑</a>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
