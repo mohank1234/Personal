@@ -3,40 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hey You 💘</title>
+    <title>Moni Respect Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="card">
-      <p class="tiny">A tiny website from a slightly panicked boyfriend 😅</p>
-      <h1>Okay... I messed up a little 🤏</h1>
-      <p class="lead">
-        But you are still my favorite human, my best smile, and the only person
-        I want to annoy forever.
-      </p>
+    <main class="dashboard" aria-label="Moni importance dashboard">
+      <header class="hero">
+        <p class="eyebrow">Personal reset dashboard</p>
+        <h1>Moni Matters</h1>
+        <p>
+          This is not a love proposal. It is a clear and respectful reminder:
+          Moni is important, and I want my actions to show maturity, patience,
+          and respect.
+        </p>
+      </header>
 
-      <section class="reasons">
-        <h2>Reasons you should be with me (scientifically accurate):</h2>
-        <ul>
-          <li>I make you laugh (even when you pretend not to 😌)</li>
-          <li>I will share fries. <strong>Every single fry.</strong></li>
-          <li>I am 100% interested in you, 0% interested in drama.</li>
-          <li>My heart auto-connects to your Wi-Fi.</li>
-        </ul>
+      <section class="grid" aria-label="Dashboard cards">
+        <article class="card priority">
+          <h2>Priority Level</h2>
+          <p class="big">High</p>
+          <p>She is important to me, so my behavior should be thoughtful.</p>
+        </article>
+
+        <article class="card status">
+          <h2>Current Status</h2>
+          <p><strong>Situation:</strong> Message not replied yet.</p>
+          <p>
+            <strong>Action:</strong> Give space, avoid pressure, and respond only
+            with kindness.
+          </p>
+        </article>
+
+        <article class="card checklist">
+          <h2>Respect Checklist</h2>
+          <ul>
+            <li>✅ No repeated messages</li>
+            <li>✅ No asking personal details again</li>
+            <li>✅ Keep language calm and clear</li>
+            <li>✅ Accept her pace and boundaries</li>
+          </ul>
+        </article>
+
+        <article class="card commitment">
+          <h2>My Commitment</h2>
+          <p id="commitmentText">
+            I value Moni and I will show it through consistency and respect.
+          </p>
+          <button id="nextCommitment" type="button">Show next commitment</button>
+        </article>
       </section>
 
-      <div class="buttons">
-        <button id="forgiveBtn">Tap for my apology level</button>
-        <button id="dateBtn">Tap if you'll go on a cute date with me 💃</button>
-      </div>
-
-      <p id="message" class="message">I like you. A lot. End of report. ❤️</p>
-
-      <footer>
-        <small>
-          PS: Please be with me. I promise better behavior + extra snacks.
-        </small>
-      </footer>
+      <section class="card message-box" aria-label="Optional message drafts">
+        <h2>Simple Message Drafts</h2>
+        <p class="helper">
+          Use only one short message. Then wait patiently.
+        </p>
+        <div class="message-actions">
+          <button class="draft-btn" data-draft="1" type="button">Draft 1</button>
+          <button class="draft-btn" data-draft="2" type="button">Draft 2</button>
+          <button class="draft-btn" data-draft="3" type="button">Draft 3</button>
+        </div>
+        <p id="draftOutput" class="draft-output">
+          Tap a draft to preview a respectful message.
+        </p>
+      </section>
     </main>
 
     <script src="script.js"></script>
